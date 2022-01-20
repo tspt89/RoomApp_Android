@@ -1,5 +1,6 @@
 package com.tspt.roomapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.findNavController
@@ -11,5 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         setupActionBarWithNavController(findNavController(R.id.fragmentContainerView))
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        val navController = findNavController(R.id.fragmentContainerView)
+        return navController.navigateUp() || super.onSupportNavigateUp()
     }
 }

@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/RoomApp/app/src/main/res/layout/activity_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/Android/RoomApp/app/src/main/res/layout/custom_row.xml" value="0.6285714285714287" />
         <entry key="..\:/Android/RoomApp/app/src/main/res/layout/fragment_add.xml" value="0.25885416666666666" />
         <entry key="..\:/Android/RoomApp/app/src/main/res/layout/fragment_list.xml" value="0.18857142857142858" />
       </map>
